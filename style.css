@@ -1,61 +1,119 @@
-
-@import rel="preconnect" href="https://fonts.googleapis.com">
-@import url(="preconnect" href="https://fonts.gstatic.com" crossorigin>);
-@import url(href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap" rel="stylesheet">
-); 
-
 body {
     background-color: #f3e5d8;
     font-family: Arial, sans-serif;
+    color: #5f574e;
     margin: 0;
-    padding: 30px;
+    padding: 40px 20px;
 }
 
 main {
     background-color: white;
-    width: 600px;
-    margin: auto;
+    max-width: 480px;
+    margin: 50px auto;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 18px;
 }
 
 img {
     width: 100%;
+    height: 220px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
 h1 {
+    font-family: Georgia, serif;
     color: #302d2c;
+    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 h2 {
+    font-family: Georgia, serif;
     color: #854632;
+    font-size: 23px;
+    margin-bottom: 15px;
 }
+
 
 p {
-    color: #5f574e;
-    line-height: 1.5;
+    font-size: 13px;
+    line-height: 1.6;
 }
 
-section {
+.preparation {
+    background-color: #fff7fc;
+    padding: 15px 20px;
+    border-radius: 10px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
+
+
+.preparation h2 {
+    font-family: Arial, sans-serif;
+    color: #7b284f;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+
+ol {
+    padding-left: 25px;
+}
+
 
 li {
-    margin-bottom: 10px;
-    padding-left: 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    padding-left: 5px;
+    margin-bottom: 8px;
 }
+
+li::marker {
+    color: #854632;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 
 table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 15px;
 }
+
+
+td, th {
+    padding: 12px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+th {
+    font-weight: normal;
+}
+
 
 td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
+    color: #854632;
+    font-weight: bold;
 }
 
-hr {
-    border: 1px solid #eee;
+tr:last-child td,
+tr:last-child th {
+    border-bottom: none;
 }
+
+
